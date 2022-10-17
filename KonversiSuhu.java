@@ -45,10 +45,9 @@ public class KonversiSuhu {
     System.out.println("==================================================");
     System.out.printf("1. Celcius\n2. Fahrenheit\n3. Reamur\n4. Kelvin\n");
     System.out.println("==================================================");
-    System.out.printf("%-51s","Ketik angka untuk memilih jenis input dan output!");
+    System.out.printf("%-51s","Ketik angka untuk memilih tipe input dan output!");
     menu(sc.nextInt(),sc.nextInt());
     System.out.printf("Nilai suhu %s yang akan dikonversi  = ",inType); input=sc.nextDouble();
     conversion(); sc.close();
-    }
   }
-
+}
