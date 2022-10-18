@@ -19,6 +19,8 @@ public class DeteksiNimFilkom {
             prodi = "PTI"; break;
             case "07":
             prodi = "TI"; break;
+            default:
+            prodi = "Tidak valid"; break;
         }
         switch(seleksiMasuk){
             case "01111":
@@ -27,6 +29,8 @@ public class DeteksiNimFilkom {
             seleksiMasuk = "SBMPTN"; break;
             case "07111":
             seleksiMasuk = "Mandiri"; break;
+            default:
+            seleksiMasuk = "Tidak valid"; break;
         }
         System.out.print("\nFakultas: Ilmu Komputer\n");
         System.out.printf("Angkatan: %s\nProgram Studi: %s\nSeleksi Masuk: %s\nKode Unik: %s\n\n",angkatan,prodi,seleksiMasuk,kodeUnik);
