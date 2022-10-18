@@ -36,8 +36,10 @@ public class DeteksiNimFilkom {
         System.out.printf("Angkatan: %s\nProgram Studi: %s\nSeleksi Masuk: %s\nKode Unik: %s\n\n",angkatan,prodi,seleksiMasuk,kodeUnik);
     }
     public static void menu(){
+        System.out.println("==========================");
         System.out.println("1. Input NIM");
         System.out.println("2. Exit");
+        System.out.println("==========================");
         System.out.print("Pilihan anda: "); pilihan = in.nextInt(); in.nextLine();
         switch(pilihan){
             case 1:
